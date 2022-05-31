@@ -6,7 +6,7 @@ TOP_MODULE_PROJECT ?= zynq
 TOP_MODULE ?= Top
 CFG_PROJECT ?= $(TOP_MODULE_PROJECT)
 CONFIG ?= ZynqConfig
-SCALA_VERSION=2.11.12
+SCALA_VERSION=2.12.4
 EXTRA_PACKAGES=testchipip
 
 base_dir = $(abspath ..)
